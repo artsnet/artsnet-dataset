@@ -1,0 +1,13 @@
+{
+  "name": "artsnet-dataset",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily full dump of the Artsnet catalogue of AI-created songs as JSONL, JSON and SQLite. Built from the public API by GitHub Actions. Data: CC BY 4.0.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "build": "node --no-warnings=ExperimentalWarning scripts/build.mjs",
+    "test": "node --no-warnings=ExperimentalWarning --test \"tests/*.test.mjs\""
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+data/artsnet.sqlite
+data/*.tmp
+.DS_Store

@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Artsnet (https://artsnet.com)",
+    "covers": "Artsnet's editorial descriptions, tags, descriptors and performer candidate rationales"
+  },
+  "tags": [
+    {
+      "slug": "j-pop",
+      "category": "genre",
+      "label": {
+        "ja": "J-POP",
+        "en": "J-pop"
+      }
+    },
+    {
+      "slug": "dreamwave",
+      "category": "genre",
+      "label": {
+        "ja": "ドリームウェーブ",
+        "en": "Dreamwave"
+      }
+    },
+    {
+      "slug": "future-bass",
+      "category": "genre",
+      "label": {
+        "ja": "フューチャーベース",
+        "en": "Future bass"
+      }
+    },
+    {
+      "slug": "cinematic-edm",
+      "category": "genre",
+      "label": {
+        "ja": "シネマティックEDM",
+        "en": "Cinematic EDM"
+      }
+    },
+    {
+      "slug": "cinematic",
+      "category": "genre",
+      "label": {
+        "ja": "シネマティック",
+        "en": "Cinematic"
+      }
+    },
+    {
+      "slug": "steampunk",
+      "category": "genre",
+      "label": {
+        "ja": "スチームパンク",
+        "en": "Steampunk"
+      }
+    },
+    {
+      "slug": "surreal-pop",
+      "category": "genre",
+      "label": {
+        "ja": "シュールポップ",
+        "en": "Surreal pop"
+      }
+    },
+    {
+      "slug": "pop",
+      "category": "genre",
+      "label": {
+        "ja": "ポップ",
+        "en": "Pop"
+      }
+    },
+    {
+      "slug": "rock",
+      "category": "genre",
+      "label": {
+        "ja": "ロック",
+        "en": "Rock"
+      }
+    },
+    {
+      "slug": "alternative-rock",
+      "category": "genre",
+      "label": {
+        "ja": "オルタナティブロック",
+        "en": "Alternative rock"
+      }
+    },
+    {
+      "slug": "folk",
+      "category": "genre",
+      "label": {
+        "ja": "フォーク",
+        "en": "Folk"
+      }
+    },
+    {
+      "slug": "folk-rock",
+      "category": "genre",
+      "label": {
+        "ja": "フォークロック",
+        "en": "Folk rock"
+      }
+    },
+    {
+      "slug": "jazz",
+      "category": "genre",
+      "label": {
+        "ja": "ジャズ",
+        "en": "Jazz"
+      }
+    },
+    {
+      "slug": "r-and-b",
+      "category": "genre",
+      "label": {
+        "ja": "R&B / ソウル",
+        "en": "R&B / Soul"
+      }
+    },
+    {
+      "slug": "hip-hop",
+      "category": "genre",
+      "label": {
+        "ja": "ヒップホップ",
+        "en": "Hip-hop"
+      }
+    },
+    {
+      "slug": "ballad",
+      "category": "genre",
+      "label": {
+        "ja": "バラード",
+        "en": "Ballad"
+      }
+    },
+    {
+      "slug": "ambient",
+      "category": "genre",
+      "label": {
+        "ja": "アンビエント",
+        "en": "Ambient"
+      }
+    },
+    {
+      "slug": "lo-fi",
+      "category": "genre",
+      "label": {
+        "ja": "ローファイ",
+        "en": "Lo-fi"
+      }
+    },
+    {
+      "slug": "japanese-traditional",
+      "category": "genre",
+      "label": {
+        "ja": "和風",
+        "en": "Japanese traditional"
+      }
+    },
+    {
+      "slug": "alternative-folk",
+      "category": "genre",
+      "label": {
+        "ja": "オルタナティブ・フォーク",
+        "en": "Alternative folk"
+      }
+    },
+    {
+      "slug": "indie-folk",
+      "category": "genre",
+      "label": {
+        "ja": "インディー・フォーク",
+        "en": "Indie folk"
+      }
+    },
+    {
+      "slug": "kayokyoku",
+      "category": "genre",
+      "label": {
+        "ja": "歌謡曲",
+        "en": "Kayōkyoku"
+      }
+    },
+    {
+      "slug": "country-rock",
+      "category": "genre",
+      "label": {
+        "ja": "カントリーロック",
+        "en": "Country rock"
+      }
+    },
+    {
+      "slug": "dance-pop",
+      "category": "genre",
+      "label": {
+        "ja": "ダンス・ポップ",
+        "en": "Dance-pop"
+      }
+    },
+    {
+      "slug": "country",
+      "category": "genre",
+      "label": {
+        "ja": "カントリー",
+        "en": "Country"
+      }
+    },
+    {
+      "slug": "melodic-rock",
+      "category": "genre",
+      "label": {
+        "ja": "メロディック・ロック",
+        "en": "Melodic rock"
+      }
+    },
+    {
+      "slug": "yacht-rock",
+      "category": "genre",
+      "label": {
+        "ja": "ヨット・ロック",
+        "en": "Yacht rock"
+      }
+    },
+    {
+      "slug": "celtic",
+      "category": "genre",
+      "label": {
+        "ja": "ケルト",
+        "en": "Celtic"
+      }
+    },
+    {
+      "slug": "vocaloid-style",
+      "category": "genre",
+      "label": {
+        "ja": "ボカロ風",
+        "en": "Vocaloid-style"
+      }
+    },
+    {
+      "slug": "visual-kei",
+      "category": "genre",
+      "label": {
+        "ja": "ヴィジュアル系",
+        "en": "Visual Kei"
+      }
+    },
+    {
+      "slug": "blues-rock",
+      "category": "genre",
+      "label": {
+        "ja": "ブルースロック",
+        "en": "Blues rock"
+      }
+    },
+    {
+      "slug": "rockabilly",
+      "category": "genre",
+      "label": {
+        "ja": "ロカビリー",
+        "en": "Rockabilly"
+      }
+    },
+    {
+      "slug": "americana",
+      "category": "genre",
+      "label": {
+        "ja": "アメリカーナ",
+        "en": "Americana"
+      }
+    },
+    {
+      "slug": "rap",
+      "category": "genre",
+      "label": {
+        "ja": "ラップ",
+        "en": "Rap"
+      }
+    },
+    {
+      "slug": "heavy-metal",
+      "category": "genre",
+      "label": {
+        "ja": "ヘヴィメタル",
+        "en": "Heavy metal"
+      }
+    },
+    {
+      "slug": "nwobhm",
+      "category": "genre",
+      "label": {
+        "ja": "NWOBHM",
+        "en": "NWOBHM"
+      }
+    },
+    {
+      "slug": "hard-rock",
+      "category": "genre",
+      "label": {
+        "ja": "ハードロック",
+        "en": "Hard rock"
+      }
+    },
+    {
+      "slug": "j-rock",
+      "category": "genre",
+      "label": {
+        "ja": "J-ロック",
+        "en": "J-rock"
+      }
+    },
+    {
+      "slug": "reflective",
+      "category": "mood",
+      "label": {
+        "ja": "内省的",
+        "en": "Reflective"
+      }
+    },
+    {
+      "slug": "energetic",
+      "category": "mood",
+      "label": {
+        "ja": "エネルギッシュ",
+        "en": "Energetic"
+      }
+    },
+    {
+      "slug": "melancholic",
+      "category": "mood",
+      "label": {
+        "ja": "メランコリック",
+        "en": "Melancholic"
+      }
+    },
+    {
+      "slug": "hopeful",
+      "category": "mood",
+      "label": {
+        "ja": "希望的",
+        "en": "Hopeful"
+      }
+    },
+    {
+      "slug": "dreamlike",
+      "category": "mood",
+      "label": {
+        "ja": "夢幻的",
+        "en": "Dreamlike"
+      }
+    },
+    {
+      "slug": "nostalgic",
+      "category": "mood",
+      "label": {
+        "ja": "郷愁",
+        "en": "Nostalgic"
+      }
+    },
+    {
+      "slug": "gentle",
+      "category": "mood",
+      "label": {
+        "ja": "穏やか",
+        "en": "Gentle"
+      }
+    },
+    {
+      "slug": "dark",
+      "category": "mood",
+      "label": {
+        "ja": "ダーク",
+        "en": "Dark"
+      }
+    },
+    {
+      "slug": "romantic",
+      "category": "mood",
+      "label": {
+        "ja": "ロマンティック",
+        "en": "Romantic"
+      }
+    },
+    {
+      "slug": "electronic",
+      "category": "sound",
+      "label": {
+        "ja": "エレクトロニック",
+        "en": "Electronic"
+      }
+    },
+    {
+      "slug": "acoustic",
+      "category": "sound",
+      "label": {
+        "ja": "アコースティック",
+        "en": "Acoustic"
+      }
+    },
+    {
+      "slug": "cinematic-textures",
+      "category": "sound",
+      "label": {
+        "ja": "シネマティックな音像",
+        "en": "Cinematic textures"
+      }
+    },
+    {
+      "slug": "band",
+      "category": "sound",
+      "label": {
+        "ja": "バンド編成",
+        "en": "Band"
+      }
+    },
+    {
+      "slug": "orchestral",
+      "category": "sound",
+      "label": {
+        "ja": "オーケストラル",
+        "en": "Orchestral"
+      }
+    },
+    {
+      "slug": "female-vocal",
+      "category": "sound",
+      "label": {
+        "ja": "女性ボーカル",
+        "en": "Female vocal"
+      }
+    },
+    {
+      "slug": "male-vocal",
+      "category": "sound",
+      "label": {
+        "ja": "男性ボーカル",
+        "en": "Male vocal"
+      }
+    },
+    {
+      "slug": "instrumental",
+      "category": "sound",
+      "label": {
+        "ja": "インストゥルメンタル",
+        "en": "Instrumental"
+      }
+    },
+    {
+      "slug": "piano",
+      "category": "sound",
+      "label": {
+        "ja": "ピアノ",
+        "en": "Piano"
+      }
+    },
+    {
+      "slug": "guitar",
+      "category": "sound",
+      "label": {
+        "ja": "ギター",
+        "en": "Guitar"
+      }
+    },
+    {
+      "slug": "bass",
+      "category": "sound",
+      "label": {
+        "ja": "ベース",
+        "en": "Bass"
+      }
+    }
+  ]
+}

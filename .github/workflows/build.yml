@@ -1,0 +1,61 @@
+name: Build dataset
+
+# Every day at 00:00 UTC (09:00 JST), after Artsnet's own daily run at 06:00 JST, and on demand.
+# Pulls the public API, commits the text files for a diffable history, and attaches every file
+# (SQLite included) to a dated GitHub Release. "releases/latest/download/<file>" always serves
+# the newest one.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-dataset
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      - name: Build from the public API
+        run: npm run build
+      - name: Commit the text files when they changed
+        id: commit
+        run: |
+          git add data/songs.jsonl data/tags.json data/manifest.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No change since the last build."
+          else
+            git config user.name "artsnet-dataset bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            date="$(node -p "require('./data/manifest.json').generatedAt.slice(0, 10)")"
+            songs="$(node -p "require('./data/manifest.json').counts.songs")"
+            git commit -m "Dataset $date: $songs songs"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Publish a dated release with every file
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          date="$(node -p "require('./data/manifest.json').generatedAt.slice(0, 10)")"
+          songs="$(node -p "require('./data/manifest.json').counts.songs")"
+          tags="$(node -p "require('./data/manifest.json').counts.tags")"
+          tag="data-$date"
+          notes="Artsnet catalogue dump for $date: $songs songs, $tags tags. Data: CC BY 4.0, attribution \"Artsnet (https://artsnet.com)\". Files: songs.jsonl, tags.json, artsnet.sqlite, manifest.json (SHA-256 of each file)."
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" data/songs.jsonl data/tags.json data/artsnet.sqlite data/manifest.json --clobber
+          else
+            gh release create "$tag" data/songs.jsonl data/tags.json data/artsnet.sqlite data/manifest.json --title "Dataset $date" --notes "$notes" --latest
+          fi

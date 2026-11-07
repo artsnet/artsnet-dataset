@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-07T11:38:16.183Z",
+  "source": {
+    "api": "https://artsnet.com/api/v1",
+    "songsEndpoint": "https://artsnet.com/api/v1/songs",
+    "tagsEndpoint": "https://artsnet.com/api/v1/tags"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Artsnet (https://artsnet.com)",
+    "covers": "Artsnet's editorial descriptions, tags, descriptors and performer candidate rationales"
+  },
+  "counts": {
+    "songs": 32,
+    "byStatus": {
+      "noticed": 32
+    },
+    "byLanguage": {
+      "en": 14,
+      "ja": 18
+    },
+    "withYoutubeSource": 32,
+    "withPerformerCandidates": 0,
+    "tags": 58
+  },
+  "files": {
+    "songs.jsonl": {
+      "bytes": 49264,
+      "sha256": "28348f66630d401c53657b1d24580eafc9b39503f4b745e286e8bd420842b40b"
+    },
+    "tags.json": {
+      "bytes": 9141,
+      "sha256": "4c5bb35400f60458fbadba4cc8030b6a80c203e718e77ba0a8a65469b3d49968"
+    },
+    "artsnet.sqlite": {
+      "bytes": 102400,
+      "sha256": "a2018cc54b3a83ba778dfbe4f8548ec96242c865bde2e8ebc545af2169d4e9ea"
+    }
+  }
+}
