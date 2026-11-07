@@ -59,7 +59,7 @@ sqlite3 artsnet.sqlite "SELECT status, COUNT(*) FROM songs GROUP BY status;"
 
 ## When to use the API instead
 
-Use the dump for anything that needs more than a page or two of songs: analysis, training a classifier, building your own index, mirroring. Use the [API](https://artsnet.com/api/v1) or the [`@artsnet/mcp`](https://github.com/artsnet/artsnet-mcp) MCP server for lookups and searches at request time. The API's `since` parameter plus `updatedAt` in the dump let you sync incrementally between daily builds.
+Use the dump for anything that needs more than a page or two of songs: analysis, training a classifier, building your own index, mirroring. Use the [API](https://artsnet.com/api/v1) (reference in the [artsnet-mcp README](https://github.com/artsnet/artsnet-mcp#the-api-underneath)) or the [`@artsnet/mcp`](https://github.com/artsnet/artsnet-mcp) MCP server for lookups and searches at request time. The API's `since` parameter plus `updatedAt` in the dump let you sync incrementally between daily builds.
 
 ## Building it yourself
 
@@ -100,7 +100,7 @@ Code: MIT. Data: CC BY 4.0.
 
 ### 使い分け
 
-数ページ以上の曲が要る用途(分析、分類器の学習、独自インデックス、ミラー)はダンプを、その場の検索や個別取得は [API](https://artsnet.com/api/v1) か MCP サーバー [`@artsnet/mcp`](https://github.com/artsnet/artsnet-mcp) を使ってください。日次ビルドの間は API の `since` とダンプの `updatedAt` で差分同期できます。
+数ページ以上の曲が要る用途(分析、分類器の学習、独自インデックス、ミラー)はダンプを、その場の検索や個別取得は [API](https://artsnet.com/api/v1)(仕様は [artsnet-mcp の README](https://github.com/artsnet/artsnet-mcp#api))か MCP サーバー [`@artsnet/mcp`](https://github.com/artsnet/artsnet-mcp) を使ってください。日次ビルドの間は API の `since` とダンプの `updatedAt` で差分同期できます。
 
 ### ライセンス
 
