@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T11:38:16.183Z",
+  "generatedAt": "2026-11-07T11:39:38.549Z",
   "source": {
     "api": "https://artsnet.com/api/v1",
     "songsEndpoint": "https://artsnet.com/api/v1/songs",
@@ -36,7 +36,7 @@
     },
     "artsnet.sqlite": {
       "bytes": 102400,
-      "sha256": "a2018cc54b3a83ba778dfbe4f8548ec96242c865bde2e8ebc545af2169d4e9ea"
+      "sha256": "f2fba995cacaa1e8d05108524423e8d0a8cc24831612c6ca8b637a70ef939086"
     }
   }
 }
