@@ -312,6 +312,14 @@
       }
     },
     {
+      "slug": "city-pop",
+      "category": "genre",
+      "label": {
+        "ja": "シティポップ",
+        "en": "City pop"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
