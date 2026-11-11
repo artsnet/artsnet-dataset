@@ -320,6 +320,14 @@
       }
     },
     {
+      "slug": "k-pop",
+      "category": "genre",
+      "label": {
+        "ja": "K-POP",
+        "en": "K-pop"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
