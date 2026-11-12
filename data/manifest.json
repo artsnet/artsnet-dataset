@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T05:38:56.804Z",
+  "generatedAt": "2026-11-12T06:44:35.397Z",
   "source": {
     "api": "https://artsnet.com/api/v1",
     "songsEndpoint": "https://artsnet.com/api/v1/songs",
@@ -13,22 +13,22 @@
     "covers": "Artsnet's editorial descriptions, tags, descriptors and performer candidate rationales"
   },
   "counts": {
-    "songs": 36,
+    "songs": 37,
     "byStatus": {
-      "noticed": 36
+      "noticed": 37
     },
     "byLanguage": {
       "en": 14,
-      "ja": 22
+      "ja": 23
     },
-    "withYoutubeSource": 36,
+    "withYoutubeSource": 37,
     "withPerformerCandidates": 0,
     "tags": 60
   },
   "files": {
     "songs.jsonl": {
-      "bytes": 55634,
-      "sha256": "7000d807ea56d5d4d363808a44c831d5847cbf275c639fae55ba3122a02dc385"
+      "bytes": 57128,
+      "sha256": "1e86066e424a398373167d8ca2f3b21b4ab7c909fd1319dc9fd20686d1a89a12"
     },
     "tags.json": {
       "bytes": 9426,
@@ -36,7 +36,7 @@
     },
     "artsnet.sqlite": {
       "bytes": 106496,
-      "sha256": "75dcafcdfdac8d18b1dae507f8ff19f31bd14c97a27b7aca265ad0a61388dd29"
+      "sha256": "05eedcae16a4fc6657c6eb64b86c7098ea6386715541402a832697439e6b9e8f"
     }
   }
 }
