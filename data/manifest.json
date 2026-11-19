@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T06:52:02.964Z",
+  "generatedAt": "2026-11-19T06:52:22.162Z",
   "source": {
     "api": "https://artsnet.com/api/v1",
     "songsEndpoint": "https://artsnet.com/api/v1/songs",
@@ -23,7 +23,7 @@
     },
     "withYoutubeSource": 43,
     "withPerformerCandidates": 0,
-    "tags": 60
+    "tags": 61
   },
   "files": {
     "songs.jsonl": {
@@ -31,12 +31,12 @@
       "sha256": "e1f97d8dd85da7dd354e86f8b9a41be372e3b3ed40491a0387312028b1519d9b"
     },
     "tags.json": {
-      "bytes": 9426,
-      "sha256": "aa60d890a330a787f5a7f147797db81d87a803d5a6bbdcf4c5d1fd48f5d2bd48"
+      "bytes": 9596,
+      "sha256": "b3f3a6b84b62a95e7f2902edd8b1d9ac8c93a45cee986991b6f6f38c54779c14"
     },
     "artsnet.sqlite": {
       "bytes": 114688,
-      "sha256": "582a2cd5457c883f5452ed2a7d7853ef430fbbc6e8ff6f4460f0226d349156ba"
+      "sha256": "34d2f0fb6063c9fe64f9be25a8c31b4b04ab30882c9eb37e0fb692e4cb8e3bea"
     }
   }
 }

@@ -486,6 +486,14 @@
         "ja": "ベース",
         "en": "Bass"
       }
+    },
+    {
+      "slug": "duet-vocals",
+      "category": "sound",
+      "label": {
+        "ja": "デュエット・ボーカル",
+        "en": "Duet vocals"
+      }
     }
   ]
 }
