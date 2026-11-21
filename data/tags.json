@@ -328,6 +328,14 @@
       }
     },
     {
+      "slug": "outlaw-country",
+      "category": "genre",
+      "label": {
+        "ja": "アウトローカントリー",
+        "en": "Outlaw country"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
