@@ -336,6 +336,14 @@
       }
     },
     {
+      "slug": "singer-songwriter",
+      "category": "genre",
+      "label": {
+        "ja": "シンガーソングライター",
+        "en": "Singer-songwriter"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
@@ -501,6 +509,14 @@
       "label": {
         "ja": "デュエット・ボーカル",
         "en": "Duet vocals"
+      }
+    },
+    {
+      "slug": "drums",
+      "category": "sound",
+      "label": {
+        "ja": "ドラム",
+        "en": "Drums"
       }
     }
   ]
