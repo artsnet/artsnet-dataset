@@ -344,6 +344,14 @@
       }
     },
     {
+      "slug": "indie-pop",
+      "category": "genre",
+      "label": {
+        "ja": "インディー・ポップ",
+        "en": "Indie pop"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
