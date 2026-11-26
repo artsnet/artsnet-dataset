@@ -352,6 +352,22 @@
       }
     },
     {
+      "slug": "symphonic-power-metal",
+      "category": "genre",
+      "label": {
+        "ja": "シンフォニック・パワーメタル",
+        "en": "Symphonic power metal"
+      }
+    },
+    {
+      "slug": "anime-rock",
+      "category": "genre",
+      "label": {
+        "ja": "アニメロック",
+        "en": "Anime rock"
+      }
+    },
+    {
       "slug": "reflective",
       "category": "mood",
       "label": {
